@@ -376,11 +376,11 @@ for (geo in countries) {
 
 
 # To export to Excel. Uncomment as needed
-write.xlsx(int_strand_mult_rank,"Results/int_strand_mult_rank.xlsx")
-write.xlsx(int_net_mult_rank,"Results/int_net_mult_rank.xlsx")
-write.xlsx(int_strand_impact_rank,"Results/int_strand_impact_rank.xlsx")
-write.xlsx(cbind(rownames(int_B_sect_stranding), int_B_sect_stranding),"Results/int_B_sect_stranding.xlsx")
-write.xlsx(cbind(rownames(int_B_sect_strand_share), int_B_sect_strand_share),"Results/int_B_sect_strand_share.xlsx")
+write.csv(int_strand_mult_rank,"Results/int_strand_mult_rank.csv")
+write.csv(int_net_mult_rank,"Results/int_net_mult_rank.csv")
+write.csv(int_strand_impact_rank,"Results/int_strand_impact_rank.csv")
+write.csv(cbind(rownames(int_B_sect_stranding), int_B_sect_stranding),"Results/int_B_sect_stranding.csv")
+write.csv(cbind(rownames(int_B_sect_strand_share), int_B_sect_strand_share),"Results/int_B_sect_strand_share.csv")
 
 
 
